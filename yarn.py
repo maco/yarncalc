@@ -32,6 +32,8 @@ def to_pounds(weight, unit):
         pounds = float(weight) / 16
     elif unit == "kg":
         pounds = float(weight) * 2.2
+    else: # grams
+        pounds = float(weight) * 2.2 *.001
 
     return pounds
 
@@ -56,4 +58,4 @@ def index():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
