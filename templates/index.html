@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>Yarn Size Calculator</title>
+</head>
+<body>
+<form action="/calculate">
+<label for="fiber">Fiber</label>
+<select name="fiber">
+	<option value="cotton">Cotton</option>
+	<option value="linen">Linen</option>
+	<option value="silk">Silk</option>
+	<option value="wool">Wool</option>
+</select><br/>
+<label for="weight">Weight</label>
+<input type="text" name="weight"/>
+<select name="weightunit">
+	<option value="g">Grams</option>
+	<option value="kg">Kilograms</option>
+	<option value="oz">Ounces</option>
+	<option value="lb">Pounds</option>
+</select>
+<br/>
+<label for="length">Length</label>
+<input type="text" name="length"/>
+<select name="lengthunit">
+	<option value="m">Meters</option>
+	<option value="yd">Yards</option>
+</select><br/>
+<label for="plies">Plies</label>
+<input type="text" name="plies"/><br/>
+<input type="submit" value="Submit"/>
+</form>
+</body>
+</html>
