@@ -1,4 +1,4 @@
-Flask==0.10.1
+Flask==1.0
 gnureadline==6.3.3
 gunicorn==19.2.0
 ipython==2.4.0
